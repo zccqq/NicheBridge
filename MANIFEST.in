@@ -1,0 +1,8 @@
+include README.md pyproject.toml
+recursive-include docs *.md
+recursive-include tutorials *.py *.ipynb *.gmt *.json
+recursive-include reproducibility *.py *.md
+recursive-include ablation* *.py
+recursive-include sensitivity* *.py
+include data/README.md
+global-exclude __pycache__ *.py[cod] .DS_Store
